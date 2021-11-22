@@ -1,6 +1,5 @@
 .container {
 	display: flex;
-
 	justify-content: center;
 	align-items: center;
 	height: 50vh;
@@ -35,7 +34,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	margin-top: 130px;
-	color: gray;
+	color: #797474;
 	font-size: 2rem;
 	text-align: center;
 }
