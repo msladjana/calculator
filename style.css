@@ -1,0 +1,42 @@
+.container {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	background: #f0e6d3;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+}
+.container input[type="number"],
+.container input[type="submit"] {
+	border: 2px solid #cacaca;
+    color: #797474;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.container input[type="number"]:focus,
+.container input[type="submit"]:focus,
+.container select:focus {
+	outline: none;
+}
+.container select {
+	width: 180px;
+	padding: 20px;
+	border: 2px solid #cacaca;
+	font-size: 1.2rem;
+	color: #797474;
+	cursor: pointer;
+}
+p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 130px;
+	color: gray;
+	font-size: 2rem;
+	text-align: center;
+}
+
