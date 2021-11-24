@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <form action="./calculator.php" method="POST">
+        <form action="calculator.php" method="POST">
             <input type="number" name="num_1" placeholder="select a number">
             <select name="operation">
                 <option value=""></option>
